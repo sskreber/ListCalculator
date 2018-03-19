@@ -21,7 +21,7 @@ public class List {
         int itemNumber = 0;
         listContent = new ArrayList<>(length);
         while (itemNumber < length) {
-//             creating a random number per each loop between -25 and 25.
+        // creating a random number per each loop between -25 and 25.
             int randomNumber = (int) (Math.random() * 50 - 25);
             listContent.add(itemNumber, randomNumber);
             itemNumber++;
